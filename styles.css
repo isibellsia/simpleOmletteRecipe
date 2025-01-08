@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Outfit", serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+.preparation {
+  padding: 20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 20px;
+}
+
+.preparation p {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+ul li {
+  margin-top: 5px;
+}
+
+.grid {
+  padding: 20px;
+  gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nameTable {
+  grid-column: 1;
+}
+
+.ingredients p {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  font-size: 18px;
+}
+
+.instructions p {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  font-size: 18px;
+}
+
+.nutrition p:nth-child(1) {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.valueTable {
+  color: hsl(31, 95%, 25%);
+  font-weight: 500;
+}
+
+span {
+  font-family: "Young Serif", serif;
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
